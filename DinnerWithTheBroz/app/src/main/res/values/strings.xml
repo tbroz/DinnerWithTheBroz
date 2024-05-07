@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Dinner With The Broz</string>
+
+    <!-- Add recipe button text -->
+    <string name="add_recipe_button_text">Add Recipe</string>
+    <!-- No recipe text -->
+    <string name="no_recipe_text">No recipes added yet.</string>
+    <string name="add_recipe_title">Recipe Page</string>
+    <string name="recipe_title_hint">Title</string>
+    <string name="ingredients_hint">Ingredients</string>
+    <string name="steps_hint">Steps</string>
+    <string name="add_button_text">Add</string>
+    <string name="recipe_ingredients_title"><u>Ingredients:</u></string>
+    <string name="recipe_instructions_title">Follow</string>
+    <string name="recipe_steps_title"><u>Steps:</u></string>
+    <string name="title_hint">Title</string>
+    <string name="recipe_title">Recipe Title</string>
+    <string name="recipe_ingredients_hint">Type your ingredients here</string>
+
+    <string name="recipe_steps_hint">Steps Hint</string>
+    <string name="save_recipe_button_text">Save Recipe</string>
+    <string name="recipe_directions_hint">Type your steps here</string>
+    <string name="save_recipe_label">Save Recipe</string>
+    <string name="delete_recipe_button_text">Delete Recipe</string>
+
+</resources>

@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <EditText
+        android:id="@+id/recipe_ingredients_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="195dp"
+        android:layout_above="@+id/recipe_directions_edittext"
+        android:layout_marginBottom="15dp"
+        android:hint="@string/recipe_ingredients_hint"
+        android:inputType="textMultiLine" />
+
+    <EditText
+        android:id="@+id/recipe_title_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:layout_above="@+id/recipe_ingredients_edittext"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="23dp"
+        android:layout_marginBottom="15dp"
+        android:hint="@string/recipe_title_hint" />
+
+    <EditText
+        android:id="@+id/recipe_directions_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="187dp"
+        android:layout_above="@+id/save_recipe_button"
+        android:layout_marginBottom="164dp"
+        android:hint="@string/recipe_directions_hint"
+        android:inputType="textMultiLine" />
+
+    <Button
+        android:id="@+id/save_recipe_button"
+        android:layout_width="365dp"
+        android:layout_height="76dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="7dp"
+        android:onClick="saveRecipe"
+        android:text="@string/save_recipe_button_text" />
+
+</RelativeLayout>

@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/recipe_title_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/recipe_title_hint"/>
+
+    <EditText
+        android:id="@+id/recipe_ingredients_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/recipe_ingredients_hint" />
+
+    <EditText
+        android:id="@+id/recipe_directions_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/recipe_directions_hint" />
+
+    <Button
+        android:id="@+id/save_recipe_button"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:onClick="saveRecipe"
+        android:text="@string/save_recipe_button_text" />
+
+</LinearLayout>
